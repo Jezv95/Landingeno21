@@ -8,6 +8,12 @@
         overflow: hidden;
         width: 100%;
     }
+
+    main{ 
+        background-color: blue;
+        overflow: hidden;
+        width: 100vw;}
+
     .titulo_header{
        
         color: white;
@@ -27,7 +33,7 @@
     }
     .book_image{
         
-        height: 60vh;
+        height:65vh;
         background-image: url(../assets/img/MOckup_1_libro.jpg);
         background-size: cover;
         background-position: center;
@@ -46,4 +52,12 @@
 
     }
 
-    
+    .autor_bgimage{
+        
+        
+    background-image: url(../assets/img/dan-meyers-0AgtPoAARtE-unsplash.jpg);
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+      
+    }
