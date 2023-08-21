@@ -34,7 +34,7 @@
     .book_image{
         
         height:65vh;
-        background-image: url(../assets/img/MOckup_1_libro.jpg);
+        background-image: url(../assets/img/MOckup_1_libro.webp);
         background-size: cover;
         background-position: center;
         overflow: hidden;
@@ -42,6 +42,7 @@
     }
     a{
         text-decoration: none;
+        color: rgb(0, 0, 112)
     }
 
     .smallestfont{
@@ -55,9 +56,30 @@
     .autor_bgimage{
         
         
-    background-image: url(../assets/img/dan-meyers-0AgtPoAARtE-unsplash.jpg);
+    background-image: url(../assets/img/dan-meyers-0AgtPoAARtE-unsplash.webp);
         background-size: cover;
         background-position: center;
         overflow: hidden;
       
     }
+
+
+        .reseña_image{
+        
+        
+            background-image: url(../assets/img/javier-balseiro-jDU4yYk5Kgs-unsplash.webp);
+                background-size: cover;
+                
+                overflow: hidden;
+              
+            }
+
+            .oswald{
+                font-family:  Oswald;
+                letter-spacing: 10px;
+        
+            }
+
+            ul{
+                list-style: none;
+            }
